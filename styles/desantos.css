@@ -1,0 +1,27 @@
+.circles {
+    display: block;
+    margin-left: 20%;
+    margin: 0 auto;
+}
+.desk {
+    border: 15px solid gray;
+    border-radius: 50%;
+    width: 10%;
+    margin: 5%;
+    margin-left: 20%;
+}
+.graphic {
+    border: 15px solid gray;
+    border-radius: 50%;
+    width: 10%;
+    margin: 5%;
+}
+.person {
+    border:15px solid gray;
+    border-radius: 50%;
+    width: 10%;
+    margin: 5%;
+}
+#background {
+    background-color: gray;
+}

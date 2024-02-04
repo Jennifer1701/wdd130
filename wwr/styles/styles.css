@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@700&family=Zen+Kaku+Gothic+New:wght@500&display=swap');
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -6,6 +7,7 @@ nav a {
     text-align: center;
     color: whitesmoke;
     text-decoration: none;
+    padding: 35px;
 }
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
@@ -21,18 +23,27 @@ main section {
 }
 body {
     background-color:whitesmoke;
+    font-family: 'zen kaku gothic new', helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 header {
     background-color: #035E7B;
+    font-family: 'zen kaku gothic new', helvetica, sans-serif;
 }
 nav a:hover {
     background-color: #5EB1BF ;
     color: whitesmoke;
 }
 .book, .join {
-    background-color: whitesmoke ;
+    background-color: #F0E15B;
     color: black;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover {
     background-color: #5EB1BF ;
@@ -40,25 +51,37 @@ nav a:hover {
 }
 #background {
     background-color: #5EB1BF;
+    margin-bottom: 60px;
 }
 .msg {
     background-color:whitesmoke;
-}
+    line-height: 1.5em;
+    padding: 35px;
+    }
 footer {
    background-color:#90BE6D;
    color: whitesmoke; 
+   padding: 25px 50px;
+   margin-top: 200px;
 }
 .home-title {
-    color: whitesmoke;
+    color: #90BE6D;
+    font-family: 'kalam', Arial, sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
 }
 h4 {
     color:#90BE6D ;
 }
 msg h2 {
     color: #90BE6D;
+    font-family: 'kalam', Arial, sans-serif;
 }
 .msg p {
-    color: #90BE6D;
+    color:#035E7B;
+    background-color:#90BE6D;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 footer a {
     color: #035E7B;
@@ -72,6 +95,7 @@ footer a:hover {
 }
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 #hero-img {
     width: 100%;
@@ -81,4 +105,22 @@ footer p {
 }
 footer p a:hover {
     text-decoration: underline;
+}
+h2 {
+    margin: 0;
+}
+#logo_link {
+    padding-top: 5px;
+}
+footer .social img {
+    padding-top: 15px;
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+.card-img {
+    border: 10px solid #5EB1BF
+}
+main section img {
+    box-sizing: border-box;
 }
