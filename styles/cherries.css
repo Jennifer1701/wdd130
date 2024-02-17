@@ -1,0 +1,17 @@
+h1 {
+    font-size: 120px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    grid-template-columns: 1fr;
+}
+h2 {
+    font-size:50px;
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+    color: darkred;
+}
+#background {
+   background-color: darkgray; 
+}
+.grid-container {
+    display: grid;
+    grid-template-columns:1fr;
+}
