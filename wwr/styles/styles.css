@@ -195,6 +195,14 @@ nav {
     grid-column: 6/10;
     grid-row: 6/7;
 }
+FAQS Page
+.pretty {
+    display: inline;
+    float: right;
+}
+.faqs {
+    text-align: center;
+}
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
