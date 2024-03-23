@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=Boogaloo|Gochi+Hand|Kalam');
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+nav a {
+    text-align: center;
+    color: #2596BE;
+    text-decoration: none;
+    padding: 35px;
+}
+main {
+    text-align:center
+}
+header {
+    background-color: #d5ca92;
+    font-family: boogaloo;
+    font-size: 50px;
+}
+nav a:hover {
+    background-color:#2596BE;
+    color:whitesmoke;
+}
+footer {
+    background-color: #2596BE;
+    color: whitesmoke;
+    padding: 25px 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 25px;
+}
+footer a {
+    color:whitesmoke;
+    text-decoration: none;
+}
+footer a:hover {
+    color:#c48a97;
+}
+.logo {
+    width: 100px;
+}
+#hero-img {
+    width: 100%;
+}
+footer p {
+    font-size: 1.2em;
+}
+#logo_link {
+    padding-top: 10px;
+    justify-self: center;
+    align-self: center;
+}
+header {
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+p {
+    font-family: gochi hand;
+    font-size: 40px;
+}
+.social {
+    display: flex;
+}
+.social img {
+    width: 450px;
+    height: 200px;
+}
