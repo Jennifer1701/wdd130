@@ -26,7 +26,17 @@
     </div>
         <main>
         <p>Do you want to know the many events going on at BYU-Idaho? There are so many different options for you to try, many of them free or low cost. These are the kinds of opportunities you won't get again without spending a lot of money. Many students, faculty, and staff on campus spend time and energy creating and putting on events that are so beneficial to students and employees. What interests you? What do you want to learn that can help you in your future careers and as disciples of Jesus Christ? What do you want to learn? Check out the events and extras pages to learn more. </p>
-        </main>
+        <div class="popup" onclick="myFunction()">Click me!
+            <span class="popuptext" id="myPopup">One of the benefits of wholesome recreation is the renewal of your mind, body, and spirit.-Sister Janell Greenwood, "Loosen the String" BYU-I devotional October 2, 2018</span>
+          </div> 
+          <script>
+            // When the user clicks on <div>, open the popup
+            function myFunction() {
+              var popup = document.getElementById("myPopup");
+              popup.classList.toggle("show");
+            }
+            </script> 
+    </main>
 
         <footer>
             <p>Jennifer Brizzee WDD 130</p>
