@@ -71,6 +71,18 @@ p {
     width: 450px;
     height: 200px;
 }
+h1 {
+    font-family: gochi hand, Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    color: #c48a97;
+}
+.events {
+    display: inline-block;
+    width: 40%;
+}
+.today {
+    display: inline-block;
+}
 .popup {
     position: relative;
     display: inline-block;
