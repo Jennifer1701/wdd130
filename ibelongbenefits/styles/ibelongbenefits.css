@@ -83,6 +83,17 @@ h1 {
 .today {
     display: inline-block;
 }
+.extras {
+    float: right;
+    width: 51%;
+    height: 700px;
+}
+.find {
+    float: left;
+    width: 51%;
+    height: 580px;
+}
+
 .popup {
     position: relative;
     display: inline-block;
